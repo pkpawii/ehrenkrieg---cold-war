@@ -1,0 +1,20 @@
+state = {
+	id = 147
+	name = "STATE_147"
+	manpower = 4630
+	impassable = yes
+
+	state_category = zero
+
+	history = {
+		owner = FIN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FIN
+	}
+
+	provinces = {
+		197 9158 11085
+	}
+}

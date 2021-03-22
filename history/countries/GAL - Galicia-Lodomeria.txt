@@ -1,0 +1,144 @@
+﻿capital = 91
+oob = "GAL"
+set_research_slots = 3
+set_stability = 0.60
+set_war_support = 0.1
+
+set_technology = {
+	### Tanks ###
+	gwtank = 1
+	basic_light_tank = 1
+
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+
+	### Air ###
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 0
+	syndicalist = 0
+	social_democrat = 2
+	social_liberal = 6
+	market_liberal = 6
+	social_conservative = 19
+	authoritarian_democrat = 54
+	paternal_autocrat = 12
+	national_populist = 1
+}
+
+add_ideas = {
+	GAL_Alfred_Potocki_hog_ade
+	GAL_Jerzy_Potocki_for_ade
+	GAL_Eugeniusz_Kwiatkowski_eco_ade
+	GAL_Kazimierz_Kumaniecki_sec_sco
+}
+
+create_country_leader = {
+	name = "Karl Albrecht von Habsburg-Lothringen"
+	desc = "POLITICS_KARL_STEPHAN_DESC"
+	picture = "Portrait_Galicia_Karl_Albrecht.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+create_field_marshal = {
+	name = "Władysław Sikorski"
+	portrait_path = "gfx/leaders/POL/Portrait_POL_Wladyslaw_Sikorski.tga"
+	traits = {
+		politically_connected
+		career_officer
+		defensive_doctrine
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Aleksander Litwinowicz"
+	picture = "Portrait_Galicia_Aleksander_Litwinowicz.tga"
+	traits = {
+		old_guard
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ottokar Brzoza-Brzezina"
+	picture = "Portrait_Galicia_Ottokar_Brzoza_Brzezina.tga"
+	traits = {
+		old_guard
+		trait_engineer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Franciszek Kleeberg"
+	picture = "Portrait_Galicia_Franciszek_Kleeberg.tga"
+	traits = {
+		infantry_officer
+		trait_engineer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Tadeusz Kutrzeba"
+	picture = "Portrait_Galicia_Tadeusz_Kutrzeba.tga"
+	traits = {
+		old_guard
+		trait_engineer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kazimierz Fabrycy"
+	picture = "Portrait_Galicia_Kazimierz_Fabrycy.tga"
+	traits = {
+		infantry_officer
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

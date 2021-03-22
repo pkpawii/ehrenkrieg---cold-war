@@ -1,0 +1,10 @@
+PRU_totalist_decisions = {
+	allowed = {	original_tag = PRU }
+	visible = {
+		has_government = totalist
+	}
+}
+
+PRU_foreign_decisions = {
+	allowed = {	original_tag = PRU }
+}

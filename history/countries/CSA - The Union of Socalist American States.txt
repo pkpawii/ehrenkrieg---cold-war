@@ -1,0 +1,62 @@
+﻿capital = 395
+set_research_slots = 4
+set_convoys = 50
+set_stability = 0.55
+set_war_support = 0.65
+
+set_politics = {
+	ruling_party = totalist
+	last_election = "1936.11.08"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 56
+	radical_socialist = 10
+	syndicalist = 25
+	social_democrat = 9
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 0
+	paternal_autocrat = 0
+	national_populist = 0
+}
+
+create_country_leader = {
+	name = "Earl Bowder"
+	desc = "POLITICS_EARL_BOWDER_DESC"
+	picture = "Portrait_CSA_Earl_Bowder.tga"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+	traits = {
+		CSA_all_american_worker
+	}
+}
+create_country_leader = {
+	name = "Jack Reed"
+	desc = "POLITICS_JACK_REED_DESC"
+	picture = "Portrait_CSA_Jack_Reed.tga"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		CSA_all_american_worker
+	}
+}
+create_country_leader = {
+	name = "Jack Reed"
+	desc = "POLITICS_JACK_REED_DESC"
+	picture = "Portrait_CSA_Jack_Reed.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+	traits = {
+		CSA_all_american_worker
+	}
+}
+
+add_ideas = {
+	CSA_Military_Districts
+	CSA_Reconstruction
+	CSA_Revolution_Triumphant
+}

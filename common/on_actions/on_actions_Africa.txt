@@ -1,0 +1,62 @@
+on_actions = {
+	#ROOT is winner #FROM gets annexed - For civil wars on_civil_war_end is also fired
+	on_annex = {
+		effect = {
+			if = {
+				limit = {
+					tag = MAF
+					FROM = { tag = KEN }
+				}
+				country_event = {
+					id = mittel.132
+					days = 1
+				}
+			}
+		}
+	}
+
+	on_new_term_election = {
+		effect = {
+			### Liberia ###
+			if = {
+				limit = { tag = LIB }
+				country_event = lib.3 #1939
+			}
+			### Ethiopia ###
+			if = {
+				limit = { tag = ETH }
+				country_event = ethiopia.21
+			}
+		}
+	}
+
+	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = { #Bush war Mittelafrika win
+					tag = MAF
+					has_idea = MAF_border_shit_show
+					FROM = { tag = POR }
+				}
+				FROM = {country_event = mittel.39 }
+			}
+			if = {
+				limit = { #Bush war Portugal win
+					tag = POR
+					FROM = { tag = MAF
+						has_idea = MAF_border_shit_show
+					}
+				}
+				FROM = {country_event = mittel.41 }
+			}
+			if = {
+				limit = { #post collapse war Tanganyika Zanzibar- Tanganyika win
+					tag = TZN
+					FROM = { tag = ZZB }
+				}
+				FROM = {country_event = mittel.170 }
+			}
+		}
+	}
+}

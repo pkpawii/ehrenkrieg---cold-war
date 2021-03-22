@@ -1,0 +1,104 @@
+###########################
+# MittelAfrika Decisions
+###########################
+
+political_actions = {
+	MAF_take_mittelafrikan_navy = {
+		icon = generic_naval
+		allowed = {
+			tag = GER
+		}
+		available = {
+			has_war = no
+			MAF = { has_war = no }
+		}
+		visible = {
+			MAF = {
+				is_subject_of = ROOT
+				is_ai = yes
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 10 # Seems like a MAFsplosion is coming, pull out first
+				MAF = {
+					OR = {
+						check_variable = { days_mission_timeout@Decisions.MAF_Revolt_mission < 21 }
+						has_stability < -0.30
+					}
+				}
+			}
+			modifier = {
+				factor = 0 # ...but game rule said otherwise :)
+				MAF = {
+					NOT = {
+						has_global_flag = MAF_POR_border_war
+						AND = {
+							has_game_rule = {
+								rule = MAF_collapse
+								option = MAF_COLLAPSE_DISABLED
+							}
+							is_ai = yes
+						}
+					}
+				}
+			}
+		}
+		cost = 0
+		fire_only_once = yes
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision MAF_take_mittelafrikan_navy"
+			MAF = {
+				transfer_navy = { target = ROOT }
+				event_target:MAF_Max_Von_Looff = { set_nationality = ROOT }
+				set_country_flag = GER_MAF_navy_transferred
+			}
+		}
+	}
+}
+
+crisis = {
+	MAF_Revolt_mission = {
+		icon = GFX_decision_revolt
+		allowed = {
+			always = no #activated by event mittel.182
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = MAF_TT_destroy_revolts_requirement
+				has_idea = MAF_Imminent_Collapse
+				NOT = {
+					has_country_flag = MAF_all_revolts_fired
+					has_war_with = UGA
+					has_war_with = RWA
+					has_war_with = BRD
+					has_war_with = KTG
+					has_war_with = BRT
+					has_war_with = COG
+					has_war_with = TKE
+					has_war_with = ADA
+					has_war_with = KBR
+					has_war_with = HAU
+					has_war_with = DAH
+					has_war_with = GHA
+				}
+			}
+		}
+		selectable_mission = no
+		days_mission_timeout = 120
+		fire_only_once = yes
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout MAF_Revolt_mission"
+			hidden_effect = {
+				add_stability = -2
+			}
+			clr_country_flag = crisis_in_progress
+			country_event = { id = mittel.102 }
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision MAF_Revolt_mission"
+			country_event = { id = mittel.184 }
+		}
+	}
+}
