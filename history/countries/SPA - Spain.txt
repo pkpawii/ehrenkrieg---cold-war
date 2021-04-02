@@ -72,17 +72,6 @@ if = {
 	}
 }
 
-SWF = {
-	embargo_ROOT = yes
-	SPR = { embargo_PREV = yes }
-}
-SPR = { embargo_ROOT = yes }
-
-country_event = { id = sprd.1 hours = 2 }
-country_event = { id = sprd.4 days = 13 }
-country_event = { id = sprd.8 days = 32 }
-country_event = { id = sprd.13 days = 57 }
-country_event = { id = sprd.21 days = 500 }
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -105,31 +94,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	limited_conscription
-	SPA_social_breakdown
-	SPA_memories_of_the_republic
-
-	# Ministers
-	SPA_JM_Gil_Robles_Quinones_hog_ade
-	SPA_Francisco_de_Asis_Serrat_y_Bonastre_for_pau
-	SPA_German_Gil_y_Yuste_eco_pau
-	SPA_Miguel_Ponte_Manso_de_Zuniga_sec_ade
 }
 
-create_country_leader = {
-	name = "Camilo Alonso Vega"
-	picture = "Portrait_SPA_Alonso_Vega.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-}
-
-create_country_leader = {
-	name = "Miguel Cabanellas Ferrer"
-	desc = "POLITICS_MIGUEL_FERRER_DESC"
-	picture = "Portrait_SPA_Miguel_Cabanellas_Ferrer.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-}
 
 create_country_leader = {
 	name = "Alfonso XIII"
@@ -139,166 +105,7 @@ create_country_leader = {
 	ideology = authoritarian_democrat_subtype
 }
 
-create_country_leader = {
-	name = "José Calvo-Sotelo"
-	picture = "Portrait_SPA_Jose_Calvo_Sotelo.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-}
-
-create_country_leader = {
-	name = "José Díaz Ramos"
-	picture = "Portrait_SPA_Jose_Diaz_Ramos.tga"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-}
-
 ### Field Marshals ###
-create_field_marshal = {
-	name = "José Sanjurjo Sacanell"
-	portrait_path = "gfx/leaders/SPA/Portrait_SPA_Sanjurjo_Sacanell.tga"
-	traits = {
-		politically_connected
-		logistics_wizard
-		old_guard
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-	id = 300
-}
 
-### Corps Commanders ###
-create_corps_commander = {
-	name = "Francisco Franco Bahamonde"
-	portrait_path = "gfx/leaders/SPA/Portrait_SPA_Franco_Bahamonde.tga"
-	traits = {
-		politically_connected
-		infantry_leader
-	}
-	skill = 3
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-	id = 301
-}
-create_corps_commander = {
-	name = "Camilo Alonso Vega"
-	portrait_path = "gfx/leaders/SPA/Portrait_SPA_Alonso_Vega.tga"
-	traits = {
-		trickster
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-	id = 302
-}
-create_corps_commander = {
-	name = "Carlos Asensio Cabanillas"
-	portrait_path = "gfx/leaders/SPA/Portrait_SPA_Asensio_Cabanillas.tga"
-	traits = { }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-	id = 303
-}
-create_corps_commander = {
-	name = "Fidel Dávila Arrondo"
-	portrait_path = "gfx/leaders/SPA/Portrait_SPA_Davila_Arrondo.tga"
-	traits = {
-		organizer
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-	id = 304
-}
-create_corps_commander = {
-	name = "Miguel Cabanellas Ferrer"
-	portrait_path = "gfx/leaders/SPA/Portrait_SPA_Miguel_Cabanellas_Ferrer.tga"
-	traits = {
-		old_guard
-		infantry_officer
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	id = 305
-}
-create_corps_commander = {
-	name = "Francisco de Borbon y de la Torre"
-	portrait_path = "gfx/leaders/SPA/Portrait_SPA_de_Borbon_y_de_la_Torre.tga"
-	traits = {
-		politically_connected
-		trait_cautious
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	id = 306
-}
-create_corps_commander = {
-	name = "Manuel Goded Llopis"
-	portrait_path = "gfx/leaders/SPA/Portrait_SPA_Goded_Llopis.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	id = 307
-}
-create_corps_commander = {
-	name = "Severiano Martínez Anido"
-	portrait_path = "gfx/leaders/SPA/Portrait_SPA_Martinez_Anido.tga"
-	traits = {
-		old_guard
-		organizer
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	id = 308
-}
-
-### Admirals ###
-create_navy_leader = {
-	name = "Rafael Estrada Arnais"
-	portrait_path = "gfx/leaders/SPA/Portrait_SPA_Estrada_Arnais.tga"
-	traits = { }
-	skill = 1
-	maneuvering_skill = 1
-	defense_skill = 1
-	attack_skill = 1
-	coordination_skill = 1
-	id = 309
-}
-
-create_navy_leader = {
-	name = "Cervera Valderrama"
-	portrait_path = "gfx/leaders/Generic/Portrait_Europe_Generic_navy_new_5.tga"
-	traits = { }
-	skill = 1
-	maneuvering_skill = 1
-	defense_skill = 1
-	attack_skill = 1
-	coordination_skill = 1
-	id = 310
-}
 
 SPA_start_naval_variant = yes

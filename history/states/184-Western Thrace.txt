@@ -8,8 +8,8 @@ state = {
 
 
 	history = {
-		owner = BUL
-		add_core_of = BUL
+		owner = GRE
+		add_core_of = GRE
 		add_core_of = OTT
 		add_claim_by = GRE
 		victory_points = {

@@ -105,7 +105,7 @@ if = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = social_liberal
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -125,22 +125,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Karl Liebknecht"
+	name = "Johannes Dieckmann"
 	picture = "gfx/leaders/GER/Portrait_Germany_Karl_Liebknecht.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = social_liberal_subtype
 }
 
-create_country_leader = {
-	name = "Karl Liebknecht"
-	picture = "gfx/leaders/GER/Portrait_Germany_Karl_Liebknecht.tga"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-}
-
-create_country_leader = {
-	name = "Karl Liebknecht"
-	picture = "gfx/leaders/GER/Portrait_Germany_Karl_Liebknecht.tga"
-	expire = "1965.1.1"
-	ideology = totalist_subtype
-}

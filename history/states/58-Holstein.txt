@@ -3,8 +3,8 @@ state = {
 	name = "STATE_58" #Holstein
 
 	history = {
-		owner = GER
-		add_core_of = GER
+		owner = DDR
+		add_core_of = DDR
 		victory_points = {
 			6389 5
 		}

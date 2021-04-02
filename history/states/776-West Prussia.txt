@@ -5,8 +5,8 @@ state = {
 	state_category = six
 
 	history = {
-		owner = GER
-		add_core_of = GER
+		owner = DDR
+		add_core_of = DDR
 		victory_points = {
 			362 15 #Danzig
 		}

@@ -1050,6 +1050,10 @@ YUN = {
 	color = rgb { 143 20 20 }
 	color_ui = rgb { 143 40 40 }
 }
+YUG = {
+	color = rgb { 90 80 110 }
+	color_ui = rgb { 90 80 110 }
+}
 ZAM = {
 	color = rgb { 239 224 179 }
 	color_ui = rgb { 239 224 179 }

@@ -170,41 +170,7 @@ set_popularities = {
 	national_populist = 2
 }
 
-create_faction = Mittelmacht
-add_to_faction = GER
-add_to_faction = BEL
-add_to_faction = LIT
-add_to_faction = BAT
-add_to_faction = WHR
-add_to_faction = UKR
-add_to_faction = MOR
-add_to_faction = MAF
-add_to_faction = GEA
 
-# Mitteleuropa
-every_country = {
-	limit = {
-		OR = {
-			is_ally_with = GER
-			tag = DEN
-			tag = ICE
-			tag = SWE
-			tag = FIN
-			tag = HOL
-			tag = DEI
-			tag = POL
-			tag = IRE
-		}
-	}
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-			is_ally_with = GER
-		}
-		add_to_tech_sharing_group = german_research
-	}
-	GER_add_to_mitteleuropa = yes
-}
 
 country_event = { id = gerdom.1 hours = 2 } #Introduction Event
 country_event = { id = black.1 days = 34 } #Black Monday

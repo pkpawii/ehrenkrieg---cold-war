@@ -73,6 +73,7 @@ WLL = "countries/WestEur.txt"
 VNC = "countries/WestEur.txt" #Venice
 
 NRF = "countries/WestEur.txt" #Nordic Federation
+YUG = "countries/WestEur.txt" #Yugoslavia
 
 ### Eastern Europe ###
 BAT = "countries/EastEur.txt"

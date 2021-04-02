@@ -6,7 +6,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = BUL
+		owner = GRE
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1

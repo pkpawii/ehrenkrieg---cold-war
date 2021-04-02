@@ -107,7 +107,7 @@ if = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -126,23 +126,10 @@ set_popularities = {
 	national_populist = 0
 }
 
-create_country_leader = {
-	name = "Franz Jacob"
-	picture = "gfx/leaders/GER/Portrait_Germany_Franz_Jacob.tga"
-	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
-}
 
 create_country_leader = {
-	name = "Franz Jacob"
-	picture = "gfx/leaders/GER/Portrait_Germany_Franz_Jacob.tga"
+	name = "Bernard Montgomery"
+	picture = "gfx/leaders/CAN/Portrait_Canada_Bernard_Montgomery.tga"
 	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-}
-
-create_country_leader = {
-	name = "Franz Jacob"
-	picture = "gfx/leaders/GER/Portrait_Germany_Franz_Jacob.tga"
-	expire = "1965.1.1"
-	ideology = totalist_subtype
+	ideology = paternal_autocrat_subtype
 }

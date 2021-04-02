@@ -6,7 +6,7 @@ state = {
 	state_category = three
 
 	history = {
-		owner = CRO
+		owner = YUG
 		victory_points = {
 			3924 15
 		}
@@ -26,7 +26,7 @@ state = {
 			}
 		}
 
-		add_core_of = CRO
+		add_core_of = YUG
 	}
 
 	provinces = {

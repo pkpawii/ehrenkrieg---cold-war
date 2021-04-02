@@ -10,8 +10,8 @@ state = {
 	}
 
 	history = {
-		owner = GER
-		add_core_of = GER
+		owner = NFA
+		add_core_of = NFA
 		add_claim_by = FRA
 		add_claim_by = NFA
 		victory_points = {

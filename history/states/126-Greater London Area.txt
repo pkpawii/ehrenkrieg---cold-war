@@ -6,7 +6,7 @@ state = {
 	state_category = twelve
 
 	history = {
-		owner = ENG
+		owner = GBR
 		victory_points = {
 			6103 50
 		}
@@ -25,7 +25,7 @@ state = {
 				naval_base = 10
 			}
 		}
-		add_core_of = ENG
+		add_core_of = GBR
 		add_claim_by = CAN
 	}
 

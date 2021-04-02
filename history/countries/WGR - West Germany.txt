@@ -104,6 +104,15 @@ if = {
 	}
 }
 
+
+NFA = {
+	set_autonomy = {
+		target = WGR
+		autonomy_state = kr_autonomous_puppet
+		freedom_level = 0.75
+	}
+}
+
 set_research_slots = 3
 
 set_politics = {
@@ -130,19 +139,5 @@ create_country_leader = {
 	name = "Paul Frölich"
 	picture = "gfx/leaders/GER/Portrait_Germany_Paul_Frolich.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
-}
-
-create_country_leader = {
-	name = "Paul Frölich"
-	picture = "gfx/leaders/GER/Portrait_Germany_Paul_Frolich.tga"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-}
-
-create_country_leader = {
-	name = "Paul Frölich"
-	picture = "gfx/leaders/GER/Portrait_Germany_Paul_Frolich.tga"
-	expire = "1965.1.1"
-	ideology = totalist_subtype
+	ideology = paternal_autocra_subtype
 }

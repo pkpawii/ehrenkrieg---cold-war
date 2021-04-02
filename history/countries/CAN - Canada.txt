@@ -111,14 +111,7 @@ if = {
 
 set_research_slots = 4
 
-create_faction = Entente
-add_to_faction = CAN
-add_to_faction = CAF
-add_to_faction = NFA
-add_to_faction = RAJ
-add_to_faction = AST
-add_to_faction = SRD
-add_to_faction = SAF
+
 
 add_opinion_modifier = { target = LEC modifier = LEC_member }
 

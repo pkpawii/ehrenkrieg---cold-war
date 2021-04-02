@@ -6,12 +6,12 @@ state = {
 	state_category = two
 
 	history = {
-		owner = BUL
+		owner = GRE
 		buildings = {
 			infrastructure = 4
 			dockyard = 1
 		}
-		add_core_of = BUL
+		add_core_of = GRE
 		add_claim_by = GRE
 		victory_points = {
 			9930 1

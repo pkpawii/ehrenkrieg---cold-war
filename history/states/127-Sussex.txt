@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = ENG
+		owner = GBR
 		buildings = {
 			infrastructure = 8
 			arms_factory = 1
@@ -24,7 +24,7 @@ state = {
 				naval_base = 10
 			}
 		}
-		add_core_of = ENG
+		add_core_of = GBR
 		add_claim_by = CAN
 		victory_points = {
 			3501 10
