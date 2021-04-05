@@ -5,7 +5,7 @@ state = {
 	state_category = zero
 
 	history = {
-		owner = PAL
+		owner = EGY
 		add_core_of = EGY
 		add_claim_by = OTT
 		buildings = {
@@ -24,7 +24,6 @@ state = {
 				naval_base = 2
 			}
 		}
-		add_core_of = PAL
 		set_demilitarized_zone = yes
 		victory_points = {
 			4073 1

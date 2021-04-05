@@ -5,8 +5,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = MAF
-		add_core_of = MAF
+		owner = NFA
 		add_core_of = TOG
 		buildings = {
 			infrastructure = 3

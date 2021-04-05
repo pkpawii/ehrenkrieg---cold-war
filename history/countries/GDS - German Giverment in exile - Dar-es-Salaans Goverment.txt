@@ -1,0 +1,45 @@
+capital = 965
+
+oob = "GDS"
+set_naval_oob= "GDS_naval"
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	radical_socialist = 1
+	syndicalist = 1
+	social_democrat = 3
+	social_liberal = 10
+	market_liberal = 5
+	social_conservative = 15
+	authoritarian_democrat = 30
+	paternal_autocrat = 34
+	national_populist = 1
+}
+
+create_country_leader = {
+	name = "Hans Speidel"
+	picture = " .tga"
+	ideology = social_conservative_subtype
+}
+create_country_leader = {
+	name = "Hans Speidel"
+	picture = " .tga"
+	ideology = authoritarian_democrat_subtype
+}
+create_country_leader = {
+	name = "Hans Speidel"
+	picture = " .tga"
+	ideology = paternal_autocrat_subtype
+}
+create_country_leader = {
+	name = "Hans Speidel"
+	picture = " .tga"
+	ideology = national_populist_subtype
+}

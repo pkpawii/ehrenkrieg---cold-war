@@ -8,8 +8,8 @@ state = {
 	state_category = two
 
 	history = {
-		owner = MAF
-		add_claim_by = MAF
+		owner = GDS
+		add_claim_by = GDS
 		add_core_of = UGA
 		victory_points = { 12989 3 } #Kampala
 		buildings = {

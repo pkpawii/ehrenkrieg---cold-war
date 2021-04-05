@@ -5,7 +5,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = OTT
+		owner = NFA
 		add_core_of = OTT
 		add_core_of = TRP
 		victory_points = {

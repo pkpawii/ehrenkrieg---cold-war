@@ -6,8 +6,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = MAF
-		add_claim_by = MAF
+		owner = GDS
+		add_claim_by = GDS
 		add_core_of = SOM
 		add_core_of = KEN
 		buildings = {

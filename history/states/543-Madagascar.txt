@@ -5,8 +5,9 @@ state = {
 	state_category = two
 
 	history = {
-		owner = GER
+		owner = GNJ
 		add_core_of = MAD
+		add_core_of = GNJ
 		victory_points = { 5128 15 } #Antananarivo
 		victory_points = { 8188 5 } #Mahajanga
 		buildings = {

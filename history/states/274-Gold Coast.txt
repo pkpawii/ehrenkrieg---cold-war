@@ -5,8 +5,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = MAF
-		add_claim_by = MAF
+		owner = NFA
 		add_core_of = GHA
 		victory_points = { 10862 1 } #Accra
 		buildings = {

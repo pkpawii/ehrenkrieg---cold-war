@@ -6,7 +6,7 @@ state = {
 	impassable = yes
 
 	history = {
-		owner = OTT
+		owner = NFA
 		add_core_of = OTT
 		add_core_of = TRP
 		add_core_of = LBA

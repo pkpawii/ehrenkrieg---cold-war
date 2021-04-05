@@ -338,6 +338,10 @@ GBR = {
 	color = rgb { 150 0 24 }
 	color_ui = rgb { 150 0 24 }
 }
+GDS = {
+	color = rgb { 73 123 120 }
+	color_ui = rgb { 73 123 120 }
+}
 GEA = {
 	color = rgb { 1 44 123 }
 	color_ui = rgb { 1 44 123 }
@@ -362,9 +366,17 @@ GLC = {
 	color = rgb { 0 255 255 }
 	color_ui = rgb { 0 255 255 }
 }
+GLG = {
+	color = rgb { 135 169 107 }
+	color_ui = rgb { 135 169 107 }
+}
 GNA = {
 	color = rgb { 220 29 29 }
 	color_ui = rgb { 220 29 29 }
+}
+GNJ = {
+	color = rgb { 0 0 58 }
+	color_ui = rgb { 0 0 58 }
 }
 GOY = {
 	color = rgb { 105 65 45 }
@@ -541,6 +553,10 @@ LEC = {
 LEP = {
 	color = rgb { 248 198 0 }
 	color_ui = rgb { 255 198 0 }
+}
+LAF = {
+	color = rgb { 157 102 34 }
+	color_ui = rgb { 157 102 34 }
 }
 LIB = {
 	color = rgb { 129 169 177 }

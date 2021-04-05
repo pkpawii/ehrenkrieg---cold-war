@@ -6,7 +6,7 @@ state = {
 	impassable = yes
 
 	history = {
-		owner = LBA
+		owner = NFA
 		add_core_of = LBA
 		buildings = {
 			infrastructure = 1

@@ -5,8 +5,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = MAF
-		add_claim_by = MAF
+		owner = GDS
+		add_core_of = GDS
 		add_core_of = ZAM
 		buildings = {
 			infrastructure = 3

@@ -74,6 +74,9 @@ VNC = "countries/WestEur.txt" #Venice
 
 NRF = "countries/WestEur.txt" #Nordic Federation
 YUG = "countries/WestEur.txt" #Yugoslavia
+GNJ = "countries/WestEur.txt" #German Naval Junta
+GLG = "countries/WestEur.txt" #German Giverment in exile - Lagos Goverment
+GDS = "countries/WestEur.txt" #German Giverment in exile - Dar-es-Salaans Goverment
 
 ### Eastern Europe ###
 BAT = "countries/EastEur.txt"
@@ -278,6 +281,8 @@ CHA = "countries/African.txt"
 ZAM = "countries/African.txt"
 ZIM = "countries/African.txt"
 ZZB = "countries/African.txt" #Zanzibar
+
+LAF = "countries/African.txt" #Comittee for the Liberation of Africans
 
 ### No national units
 

@@ -3,8 +3,8 @@ state = {
 	name = "STATE_871"
 
 	history = {
-		owner = MAF
-		add_claim_by = MAF
+		owner = GDS
+		add_core_of = GDS
 		add_core_of = MLW
 		buildings = {
 			infrastructure = 3
