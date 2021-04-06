@@ -116,7 +116,7 @@ NFA = {
 set_research_slots = 3
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -136,8 +136,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Paul Frölich"
-	picture = "gfx/leaders/GER/Portrait_Germany_Paul_Frolich.tga"
+	name = "Charles DeGaulle"
+	picture = "Portrait_WGR_Charles_DeGaulle.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocra_subtype
+	ideology = paternal_autocrat_subtype
 }
