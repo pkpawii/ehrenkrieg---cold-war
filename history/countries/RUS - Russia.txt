@@ -90,22 +90,22 @@ set_politics = {
 
 set_popularities = {
 	totalist = 1
-	radical_socialist = 2
+	radical_socialist = 8
 	syndicalist = 3
-	social_democrat = 5
-	social_liberal = 20
-	market_liberal = 6
-	social_conservative = 8
+	social_democrat = 23
+	social_liberal = 14
+	market_liberal = 12
+	social_conservative = 18
 	authoritarian_democrat = 10
-	paternal_autocrat = 13
-	national_populist = 32
+	paternal_autocrat = 7
+	national_populist = 4
 }
 
 add_ideas = {
 
 }
 
-create_faction = Eurasian Community
+create_faction = Eurasian Defense Authority
 add_to_faction = RUS
 add_to_faction = POL
 add_to_faction = FIN
@@ -115,6 +115,8 @@ add_to_faction = HUN
 add_to_faction = BOH
 add_to_faction = BUL
 add_to_faction = GRE
+add_to_faction = CZE
+add_to_faction = AUS
 
 create_country_leader = {
 	name = "Irakliy Tsereteli"

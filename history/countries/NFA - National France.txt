@@ -125,9 +125,9 @@ set_popularities = {
 add_ideas = {
 }
 create_country_leader = {
-	name = "Philippe Pétain"
+	name = "Jean Tassigny"
 	desc = "POLITICS_PHILIPPE_PETAIN_DESC"
-	picture = "Portrait_NFA_Philippe_Petain.tga"
+	picture = "Portrait_NFA_Jean_de_Lattre_de_Tassigny.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
