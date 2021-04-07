@@ -110,16 +110,16 @@ set_politics = {
 }
 
 set_popularities = {
-	totalist = 0
-	radical_socialist = 0
-	syndicalist = 0
+	totalist = 7
+	radical_socialist = 11
+	syndicalist = 16
 	social_democrat = 3
-	social_liberal = 7
-	market_liberal = 8
-	social_conservative = 12
-	authoritarian_democrat = 20
+	social_liberal = 4
+	market_liberal = 2
+	social_conservative = 6
+	authoritarian_democrat = 7
 	paternal_autocrat = 37
-	national_populist = 13
+	national_populist = 7
 }
 
 add_ideas = {
