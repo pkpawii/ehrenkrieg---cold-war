@@ -70,16 +70,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = syndicalist
+	ruling_party = totalist
 	last_election = "1935.11.29"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	totalist = 10
+	totalist = 47
 	radical_socialist = 12
-	syndicalist = 47
+	syndicalist = 10
 	social_democrat = 8
 	social_liberal = 2
 	market_liberal = 0
@@ -185,14 +185,14 @@ create_country_leader = {
 	desc = "POLITICS_MARMADUKE_GROVE_DESC"
 	picture = "Portrait_Chile_Marmaduke_Grove.tga"
 	expire = "1965.1.1"
-	ideology = syndicalist_subtype
+	ideology = totalist_subtype
 }
 
 create_country_leader = {
 	name = "Carlos Contrera Labarca"
 	picture = "Portrait_Chile_Carlos_Labarca.tga"
 	expire = "1965.1.1"
-	ideology = totalist_subtype
+	ideology = syndicalist_subtype
 }
 
 ### Field Marshals ###

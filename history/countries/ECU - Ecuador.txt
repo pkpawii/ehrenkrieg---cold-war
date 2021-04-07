@@ -76,7 +76,7 @@ country_event = { id = ecu.30 days = 500 }
 country_event = { id = ecu.38 days = 1164 }
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -113,10 +113,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alberto Enríquez Gallo"
-	desc = "POLITICS_Alberto_GALLO_DESC"
-	picture = "Portrait_Ecuador_Alberto_Gallo.tga"
-	expire = "1965.1.1"
+	name = "Ramón Castro Jijón"
+	picture = " .tga"
 	ideology = authoritarian_democrat_subtype
 }
 

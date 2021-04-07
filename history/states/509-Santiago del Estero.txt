@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = ARG
+		owner = FOP
 		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 3

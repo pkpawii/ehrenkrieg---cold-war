@@ -6,7 +6,7 @@ state = {
 	state_category = zero
 
 	history = {
-		owner = ARG
+		owner = FOP
 		buildings = {
 			infrastructure = 2
 			12960 = {

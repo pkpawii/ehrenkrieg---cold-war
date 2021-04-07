@@ -74,7 +74,7 @@ if = {
 set_war_support = 0.2
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = social_conservative
 	last_election = "1934.5.15"
 	election_frequency = 60
 	elections_allowed = yes
@@ -135,9 +135,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eleazar López Contreras"
-	picture = "Portrait_Venezuela_Eleazar_Contreraz.tga"
-	expire = "1965.1.1"
+	name = "Germán Suárez Flamerich"
+	picture = ".tga"
 	ideology = social_conservative_subtype
 }
 

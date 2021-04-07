@@ -74,7 +74,7 @@ set_war_support = 0.1
 country_event = { id = col.1 days = 1 }
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = social_conservative
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -124,15 +124,15 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alfredo Vazquez Cobo"
-	picture = "Portrait_Columbia_Alfredo_Cobo.tga"
+	name = "Mariano Ospina Pérez"
+	picture = "Portrait_Columbia_Mariano_Ospina.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 }
 
 create_country_leader = {
-	name = "Mariano Ospina Pérez"
-	picture = "Portrait_Columbia_Mariano_Ospina.tga"
+	name = "Alfredo Vazquez Cobo"
+	picture = "Portrait_Columbia_Alfredo_Cobo.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 }

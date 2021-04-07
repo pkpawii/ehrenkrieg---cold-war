@@ -5,7 +5,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = ARG
+		owner = FOP
 		set_demilitarized_zone = yes
 		add_core_of = ARG
 		add_claim_by = FOP

@@ -1,4 +1,4 @@
-﻿capital = 512
+﻿capital = 278
 OOB = "FOP"
 set_research_slots = 2
 

@@ -5,7 +5,7 @@ state = {
 	state_category = zero_island
 
 	history = {
-		owner = ARG
+		owner = FOP
 		buildings = {
 			infrastructure = 1
 			10995 = {

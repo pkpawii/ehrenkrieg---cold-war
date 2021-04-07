@@ -3,7 +3,7 @@ state = {
 	name = "STATE_902"
 
 	history = {
-		owner = ARG
+		owner = FOP
 		add_core_of = ARG
 		add_claim_by = FOP
 		set_demilitarized_zone = yes
