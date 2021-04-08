@@ -6,8 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = TRM
-		
+		owner = RUS
 		add_core_of = RUS
 		victory_points = {
 			12189 5

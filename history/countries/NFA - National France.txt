@@ -123,6 +123,10 @@ set_popularities = {
 }
 
 add_ideas = {
+	FRA_la_reclamation
+	FRA_syndicalist_resistance
+	FRA_legacy_of_petain
+	FRA_european_reconstruction_community
 }
 create_country_leader = {
 	name = "Jean Tassigny"

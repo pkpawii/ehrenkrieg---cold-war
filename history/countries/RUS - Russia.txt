@@ -105,7 +105,7 @@ add_ideas = {
 
 }
 
-create_faction = Eurasian Defense Authority
+create_faction = "Eurasian Defense Authority"
 add_to_faction = RUS
 add_to_faction = POL
 add_to_faction = FIN
